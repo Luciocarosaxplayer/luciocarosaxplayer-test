@@ -4,7 +4,7 @@ var player;
 // this function gets called when API is ready to use
 function onYouTubePlayerAPIReady() {
     // create the global player from the specific iframe (#video)
-    player = new YT.Player('video', {
+    player = new YT.Player('video1', {
         events: {
             // call this function when player is ready to use
             'onReady': onPlayerReady
